@@ -11,5 +11,6 @@ def palindrome(number):
 user_input = input("Please enter a number: ")
 
 # Lock the input into interger only
+user_number = int(user_input)
 
 # if-else statement that will call the function / results
