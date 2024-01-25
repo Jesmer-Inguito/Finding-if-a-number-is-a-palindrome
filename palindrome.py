@@ -14,3 +14,8 @@ user_input = input("Please enter a number: ")
 user_number = int(user_input)
 
 # if-else statement that will call the function / results
+if palindrome(user_number):
+    print(f"{user_input} is a palindrome")
+
+else:
+    print(f"{user_number} is not a palindrome")
