@@ -8,6 +8,7 @@ def palindrome(number):
     return number_str == reversed_str
 
 # User input a number
+user_input = input("Please enter a number: ")
 
 # Lock the input into interger only
 
